@@ -6,7 +6,8 @@
 <body>
     <h2>{{ flatpage.title }}</h2>
     <hr>
-    <h3>Список работников:</h3>
-    <i>{{ flatpage.content }}</i>
+    <h3>Наша продукция:</h3>
+    {{ flatpage.content }}
+    {{ flatpage.content }}
 </body>
 </html>
